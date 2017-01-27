@@ -1,0 +1,84 @@
+html * {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    background: #fafafe;
+}
+
+#masthead {
+    background: #888;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 50px;
+    box-shadow: 0 0 10px #000;
+}
+
+#page_hero {
+    width: 100%;
+    height: 650px;
+    display: table;
+    background-image: url("http://placecage.com/1920/1080");
+    background-size: cover;
+}
+
+#page_hero>div {
+    display: table-row;
+}
+
+#page_hero>div h1 {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 0;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+    padding: 20px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+aside img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#colophon {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#colophon .inner {
+    background: #000;
+    color: #fff;
+    padding: 80px 20px;
+}
